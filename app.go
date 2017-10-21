@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-    "github.com/pedroescudero/roland/model/book_model.go"
+    "github.com/pedroescudero/roland/model"
 )
 
 import "database/sql"
