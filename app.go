@@ -7,7 +7,6 @@ import (
 	"github.com/gorilla/mux"
 	"fmt"
 	"strings"
-    "github.com/pedroescudero/roland/view"
 )
 
 import "database/sql"
@@ -30,9 +29,9 @@ func main() {
 }
 
 func seedBooks() {
-	books = append(books, Book{ID: "1", Title: "Bible", Pages: 1000, ISBN: "weweuruiererer-4", Author: &Author{Name: "God", Nacionality: "All"}})
-	books = append(books, Book{ID: "2", Title: "It", Pages: 500, ISBN: "weweuruiererer-5", Author: &Author{Name: "Sthepen King", Nacionality: "USA"}})
-	books = append(books, Book{ID: "3", Title: "Zombikindergarten", Pages: 250, ISBN: "miimimie3", Author: &Author{Name: "Pedro Escudero", Nacionality: "España"}})
+	books = append(books, Book{ID: "1", Title: "Bible", Pages: 1000, ISBN: "weweuruiererer-4"})
+	books = append(books, Book{ID: "2", Title: "It", Pages: 500, ISBN: "weweuruiererer-5"})
+	books = append(books, Book{ID: "3", Title: "Zombikindergarten", Pages: 250, ISBN: "miimimie3"})
 }
 
 func setRoutes(){
