@@ -7,6 +7,8 @@ import (
 	"github.com/gorilla/mux"
 	"fmt"
 	"strings"
+
+    "model/"
 )
 
 import "database/sql"
